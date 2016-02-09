@@ -10,6 +10,7 @@ import UIKit
 
 class NewPostViewController: UIViewController {
     
+    var user: User?;
     @IBOutlet weak var TextViews: UITextView!
     @IBOutlet weak var createNewPostButton: UIBarButtonItem!
 
@@ -32,6 +33,13 @@ class NewPostViewController: UIViewController {
     }
     
     @IBAction func createNewPost(sender: AnyObject) {
+        user!.requestLocation();
+        let userId = user!.getId();
+        let latitude = user!.locationManager.location!.coordinate.latitude;
+        let longitude = user!.locationManager.location!.coordinate.longitude;
+        
+        let newPost = Post(userId: userId, body: TextViews.text, latitude: latitude, longitude: longitude);
+        newPost.save();
         
     }
     func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {

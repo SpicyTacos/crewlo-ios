@@ -11,7 +11,7 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
+    var window: UIWindow?;
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         // The code here will determine if the user is logged in, and if they aren't we will prompt them to login.
-        let isUserLoggedIn = LoginViewController().isUserLoggedIn();
+        let isUserLoggedIn = LoginViewController().isUserFbTokenValid(); // This isn't really correct, should be validation against our own server, but will work for now.
         let initialViewId: String = isUserLoggedIn ?  "MainStreamViewID": "LoginViewControllerID";
         homePage(initialViewId);
         

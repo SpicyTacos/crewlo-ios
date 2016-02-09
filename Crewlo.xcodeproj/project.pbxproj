@@ -16,6 +16,8 @@
 		7035E3B31C432FEB0095D274 /* ProximaNova.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7035E3B21C432FEB0095D274 /* ProximaNova.otf */; };
 		7035E3B51C6445CD0095D274 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7035E3B41C6445CD0095D274 /* NewPostViewController.swift */; };
 		7035E3BB1C665F570095D274 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7035E3BA1C665F570095D274 /* Post.swift */; };
+		7035E3C71C67EEBD0095D274 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7035E3C61C67EEBD0095D274 /* User.swift */; };
+		7035E3C91C68346E0095D274 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7035E3C81C68346E0095D274 /* PostTableViewCell.swift */; };
 		7085AB101C341B8000A9BEA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085AB0F1C341B8000A9BEA3 /* AppDelegate.swift */; };
 		7085AB151C341B8000A9BEA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7085AB131C341B8000A9BEA3 /* Main.storyboard */; };
 		7085AB171C341B8000A9BEA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7085AB161C341B8000A9BEA3 /* Assets.xcassets */; };
@@ -53,6 +55,8 @@
 		7035E3B21C432FEB0095D274 /* ProximaNova.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ProximaNova.otf; path = "../../../../Downloads/Mark.Simonson.Proxima.Nova.CrossPlatform.Commercial.Font-TYPO/t-msprox/TYPO/ProximaNova.otf"; sourceTree = "<group>"; };
 		7035E3B41C6445CD0095D274 /* NewPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
 		7035E3BA1C665F570095D274 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		7035E3C61C67EEBD0095D274 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7035E3C81C68346E0095D274 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		7085AB0C1C341B8000A9BEA3 /* Crewlo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crewlo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7085AB0F1C341B8000A9BEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7085AB141C341B8000A9BEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 				7035E3B21C432FEB0095D274 /* ProximaNova.otf */,
 				7035E3B41C6445CD0095D274 /* NewPostViewController.swift */,
 				7035E3BA1C665F570095D274 /* Post.swift */,
+				7035E3C61C67EEBD0095D274 /* User.swift */,
+				7035E3C81C68346E0095D274 /* PostTableViewCell.swift */,
 			);
 			path = Crewlo;
 			sourceTree = "<group>";
@@ -360,9 +366,11 @@
 				7035E3AA1C35B2C90095D274 /* LoginViewController.swift in Sources */,
 				7035E3AD1C42C8ED0095D274 /* MainStreamViewController.swift in Sources */,
 				7035E3AF1C42D9D90095D274 /* CAGradientLayer+Convenience.swift in Sources */,
+				7035E3C91C68346E0095D274 /* PostTableViewCell.swift in Sources */,
 				7035E3B51C6445CD0095D274 /* NewPostViewController.swift in Sources */,
 				7085AB101C341B8000A9BEA3 /* AppDelegate.swift in Sources */,
 				7035E3BB1C665F570095D274 /* Post.swift in Sources */,
+				7035E3C71C67EEBD0095D274 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
